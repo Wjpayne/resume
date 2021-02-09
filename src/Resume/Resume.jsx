@@ -20,7 +20,7 @@ const resumeStyles = makeStyles((theme) => ({
     position: "absolute",
     outline: "none",
     transform: "translateX(-50%)",
-    top: "20%",
+    top: "300px",
     overflow: "scroll",
     [theme.breakpoints.down("sm")]: {
       width: "50vh",
