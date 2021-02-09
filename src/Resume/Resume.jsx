@@ -4,6 +4,7 @@ import IMG from "./Resume.jpg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import IMGsmall from "./ResumeSmall.jpg"
 
 const resumeStyles = makeStyles((theme) => ({
   paper: {
@@ -22,8 +23,12 @@ const resumeStyles = makeStyles((theme) => ({
     transform: "translateX(-50%)",
     top: "300px",
     overflow: "scroll",
-    [theme.breakpoints.down("sm")]: {
-      width: "50vh",
+    [theme.breakpoints.down("xs")]: {
+      width: "400px",
+      height: "550px",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
     },
   },
 
